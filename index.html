@@ -17,6 +17,21 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/864c94abeb.js" crossorigin="anonymous"></script>
 
+    <!-- tailwind css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#13131899',
+                        'price-color': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+
     <!-- CSS LINK -->
     <style>
         .manrope-font {
@@ -61,7 +76,7 @@
                 </div>
                 <div class="navbar-end ">
                     <a class="" href=""><i class=" fa-solid fa-magnifying-glass pr-5"></i></a>
-                    <button class="text-[#FFFFFF] bg-[#FF4240] py-4 px-6 rounded-lg font-bold text-xl">Get
+                    <button class="text-[#FFFFFF] bg-[#Fclass=" px-6 rounded-lg font-bold text-xl">Get
                         Ticket</button>
                 </div>
             </div>
@@ -100,8 +115,7 @@
         <section class=" my-32">
             <div class="text-center">
                 <h2 class="font-extrabold text-4xl pb-6">Professional Hockeys Club</h2>
-                <p class="lg:w-[500px] mx-auto mb-20">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                    turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <p class="lg:w-[500px] mx-auto mb-20 text-primary-color">Dit amet consectetur. Condimentum dignissim adipiscing aliquam  turpis placerat dolor. Purus urna in sit nullam proin.</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -109,8 +123,8 @@
                 <div class="text-center">
                     <div class="radial-progress text-[#FF4240] font-extrabold text-2xl bg[#FF4240] text-end"
                         style="--value:87;" role="progressbar"><span class="text-[#131318]">87%</span></div>
-                    <h3 class="font-semibold text-xl pt-6 ">Prayer Facility</h3>
-                    <p class="pt-4">Amet consectetur. Condimentum
+                    <h3 class="font-semibold text-xl pt-6">Prayer Facility</h3>
+                    <p class="pt-4 text-primary-color">Amet consectetur. Condimentum
                         dignissim adipiscing .</p>
                 </div>
                 <!-- radial-progress 2-->
@@ -118,7 +132,7 @@
                     <div class="radial-progress text-[#49D293]  font-extrabold text-2xl bg[#FF4240] text-end"
                         style="--value:95;" role="progressbar"><span class="text-[#131318]">95%</span></div>
                     <h3 class="font-semibold text-xl pt-6 ">Experienced Coach</h3>
-                    <p class="pt-4">Amet consectetur. Condimentum
+                    <p class="pt-4 text-primary-color">Amet consectetur. Condimentum
                         dignissim adipiscing .</p>
                 </div>
                 <!-- radial-progress 3-->
@@ -126,7 +140,7 @@
                     <div class="radial-progress text-[#FFB546] font-extrabold text-2xl bg[#FF4240] text-end"
                         style="--value:90;" role="progressbar"><span class="text-[#131318]">90%</span></div>
                     <h3 class="font-semibold text-xl pt-6 ">Senior Player</h3>
-                    <p class="pt-4">Amet consectetur. Condimentum
+                    <p class="pt-4 text-primary-color">Amet consectetur. Condimentum
                         dignissim adipiscing </p>
                 </div>
                 <!-- radial-progress 4-->
@@ -134,7 +148,7 @@
                     <div class="radial-progress  text-[#4C8DF1] font-extrabold text-2xl bg[#FF4240] text-end"
                         style="--value:80;" role="progressbar"><span class="text-[#131318]">80%</span></div>
                     <h3 class="font-semibold text-xl pt-6 ">Training Ground</h3>
-                    <p class="pt-4">Amet consectetur. Condimentum
+                    <p class="pt-4 text-primary-color">Amet consectetur. Condimentum
                         dignissim adipiscing .</p>
                 </div>
             </div>
@@ -144,7 +158,7 @@
         <section>
             <div class="text-center ">
                 <h2 class="font-extrabold text-4xl pb-6">Junior Program</h2>
-                <p class="lg:w-[500px] mx-auto mb-20">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                <p class="lg:w-[500px] mx-auto mb-20 text-primary-color">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
                     turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="flex flex-col lg:flex-row gap-6 pb-6">
@@ -155,29 +169,33 @@
                         <div class="hero-content  text-neutral-content">
                             <div class="h-[400px] pt-40">
                                 <h1 class="mb-5 text-4xl font-bold">Junior Program</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                    excepturi
                                     exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="text-[#FFFFFF] bg-[#FF4240] py-4 px-6 rounded-lg font-bold text-xl">Register
+                                <button
+                                    class="text-[#FFFFFF] bg-[#FF4240] py-4 px-6 rounded-lg font-bold text-xl">Register
                                     Now!</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- program card 2 -->   
+                <!-- program card 2 -->
                 <div class="px-5 ">
                     <div class="hero rounded-2xl" style="background-image: url(Images/3.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content  text-neutral-content">
                             <div class="h-[400px]  pt-40">
                                 <h1 class="mb-5 text-4xl font-bold">Teenager Program</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                    excepturi
                                     exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="text-[#FFFFFF] bg-[#FF4240] py-4 px-6 rounded-lg font-bold text-xl">Register
+                                <button
+                                    class="text-[#FFFFFF] bg-[#FF4240] py-4 px-6 rounded-lg font-bold text-xl">Register
                                     Now!</button>
                             </div>
                         </div>
                     </div>
-                </div>                            
+                </div>
             </div>
             <!-- program card 3 -->
             <div class="px-5 ">
@@ -193,9 +211,196 @@
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>
         </section>
 
+
+        <!--  -->
+        <section>
+            <div class="text-center">
+                <h2 class="font-extrabold text-4xl pb-6 pt-20">Our New Products</h2>
+                <p class="lg:w-[500px] mx-auto mb-20 text-primary-color">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis placerat
+                    dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <!-- our new products section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <!-- card 1-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/5.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">World Cup winter Jersey</h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/6.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">World Cup Flags Football</h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/7.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">Cap For Hockeys</h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/8.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">World Cup Jersey </h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/9.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">World Cup  Helmet</h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6-->
+                <div class="hero lg:p-6 ">
+                    <div class="hero-content flex-col lg:flex-row ">
+                        <img src="Images/10.png" class=" lg:w-1/3 w-full rounded-lg " />
+                        <div class="">
+                            <div class="flex gap-6  text-primary-color">
+                                <div class=" flex items-center gap-2">
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                    <p class="">5.0</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="">20</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="">200</p>
+                                </div>
+                             </div>
+                            <h1 class="text-xl font-bold pt-2">World Cup Flags Football</h1>
+                            <p class="py-4 text-primary-color">Dolor sit amet consectetur. Ut urna diam 
+                                quis sagittis.</p>
+                            <div class="flex gap-6">
+                                <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+                                <p class="font-medium text-primary-color"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
